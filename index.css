@@ -1,0 +1,15 @@
+
+.gallery {
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+.gallery-card {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px black solid;
+}
+.restaurant-main {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
