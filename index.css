@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .gallery-card > span {
     vertical-align: top;
+    font-size: 18px;
 }
 .card-title {
     width: max-content;
@@ -54,8 +55,23 @@ h1, h2, h3, h4, h5, h6 {
 #about {
     margin: 0 10px;
 }
+p, span, #bike-aside{
+    font-size: 20px;
+}
 header {
     font-size: 40px;
+    margin: 20px auto;
+    width: max-content;
+}
+#main-container {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+
+}
+#bike-aside {
+    width: 70ch;
+}
+footer {
     margin: 20px auto;
     width: max-content;
 }

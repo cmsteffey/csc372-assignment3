@@ -1,103 +1,118 @@
-<!DOCYTPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="index.css">
         <title>Your Next Place To Eat</title>
     </head>
     <body>
         <header>Your Next Place To Eat</header>
+
         <aside id="about">
-            <h3>About</h3><br>
-            <p>This is an overview of good places to grab food on UNCG's campus, especially if you're a computer science student! All of these restaurants are within a close walking distance of the Petty Building, where most computer science students have their classes. They also all have bike parking available, and the bike rides through campus are not very inclined.</p>
+            <p>This is an overview of good places to grab food on UNCG's campus, especially if you're a computer science student! All of these restaurants are within a close walking distance of the Petty Building, where most computer science students have their classes. I recommend that you go to all three restaurants to make a full meal of entrée, drink, and dessert, but they are all good by themselves. Email me at <a href="mailto:me@cmsteffey.tech">me@cmsteffey.tech</a> if you have any other recommendations to add to this page!</p>
         </aside>
-        <h2>Happy Bowl</h2>
-        <div class="restaurant-info"> <!--Flex container, hours on left, description on right-->
-            <span class="restaurant-hours">Sunday: 1:00 PM-9:00 PM<br>Monday: 11:00AM-9:30 PM<br>Tuesday: 11:00 AM-9:30 PM<br>Wednesday: 11:00 AM-9:30 PM<br>Thursday: 11:00 AM-9:30 PM<br>Friday: 11:00 AM-9:30 PM<br>Saturday: 1:00 PM-9:00 PM</span>
-            <span class="restaurant-description">Address: 1201 W Gate City Blvd, Greensboro, NC<br><br>Happy Bowl is a wonderful Asian Fusion restaurant with options from China, Japan, and more. They accept UNCG Flex, and they also have a mobile ordering platform.</span>
-        </div>
-        <img class="restaurant-main" src="images/happyBowl.png">
+        <main id="main-container">
+            <aside id="bike-aside">
+                <h3>Biking on UNCG's Campus</h3><br>
+                All of these restaurants have bike parking available, and the bike rides through campus are mostly very flat. If you intend on biking to these places, I recommend going along Spring Garden Street where there is a bike lane, or along College Avenue to get to Spring Garden Street from Petty or other lecture halls.
+            </aside>
+            <article>
+                <h2>Happy Bowl</h2>
+                <div class="restaurant-info"> <!--Flex container, hours on left, description on right-->
+                    <span class="restaurant-hours">Sunday: 1:00 PM-9:00 PM<br>Monday: 11:00AM-9:30 PM<br>Tuesday: 11:00 AM-9:30 PM<br>Wednesday: 11:00 AM-9:30 PM<br>Thursday: 11:00 AM-9:30 PM<br>Friday: 11:00 AM-9:30 PM<br>Saturday: 1:00 PM-9:00 PM</span>
+                    <span class="restaurant-description">Address: 1201 W Gate City Blvd, Greensboro, NC<br><br>Happy Bowl is a wonderful Asian Fusion restaurant with options from China, Japan, and more. They accept UNCG Flex, and they also have a mobile ordering platform.</span>
+                </div>
+                <img class="restaurant-main" src="images/happyBowl.png" alt="Happy Bowl's Storefront">
 
-        <div class="gallery">
-            <div class="gallery-card">
-                <img src="images/happyBowlDish1.png">
-                <span>
-                    <span class="card-title">Hibachi Steak & Shrimp</span><br><br>
-                    This entrée is full of well-cooked, seasoned, delicious meat, along with a side of veggie fried rice. Definitely try this with their various sauces if you can.
-                </span>
-            </div>
-            <div class="gallery-card">
-                <img src="images/happyBowlDish2.png">
-                <span>
-                    <span class="card-title">Spring Rolls</span><br><br>
-                    This lovely appetizer is full of veggies wrapped in a crunchy fried lumpia wrapper. These are great with duck sauce, and come with some by default.
-                </span>
-            </div>
-            <div class="gallery-card">
-                <img src="images/happyBowlDish3.png">
-                <span>
-                    <span class="card-title">Orange Chicken</span><br><br>
-                    This entrée is a serving of delightfully sweet chicken on a bed of white rice. This option is a bit dry, so definitely get a free water or other drink with this meal.
-                </span>
-            </div>
-        </div>
+                <div class="gallery">
+                    <div class="gallery-card">
+                        <img src="images/happyBowlDish1.png" alt="Happy Bowl's Hibachi Steak & Shrimp">
+                        <span>
+                            <span class="card-title">Hibachi Steak & Shrimp</span><br><br>
+                            This entrée is full of well-cooked, seasoned, delicious meat, along with a side of veggie fried rice. Definitely try this with their various sauces if you can.
+                        </span>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/happyBowlDish2.png" alt="Happy Bowl's Spring Roll">
+                        <span>
+                            <span class="card-title">Spring Rolls</span><br><br>
+                            This lovely appetizer is full of veggies wrapped in a crunchy fried lumpia wrapper. These are great with duck sauce, and come with some by default.
+                        </span>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/happyBowlDish3.png" alt="Happy Bowl's Orange Chicken">
+                        <span>
+                            <span class="card-title">Orange Chicken</span><br><br>
+                            This entrée is a serving of delightfully sweet chicken on a bed of white rice. This option is a bit dry, so definitely get a free water or other drink with this meal.
+                        </span>
+                    </div>
+                </div>
 
-        <h2>Moge Tee Boba Shop</h2>
-        <div class="restaurant-info"> <!--Flex container, hours on left, description on right-->
-            <span class="restaurant-hours">Sunday: 12:00 PM-9:00 PM<br>Monday: 12:00 PM-9:00 PM<br>Tuesday: 12:00 PM-9:00 PM<br>Wednesday: 12:00 PM-9:00 PM<br>Thursday: 12:00 PM-9:00 PM<br>Friday: 12:00 PM-10:00 PM<br>Saturday: 12:00 PM-10:00 PM</span>
-            <span class="restaurant-description">Address: 948 Walker Ave, Greensboro, NC<br><br>If you've got a dry meal or just some spare time, definitely stop by Moge Tee! They offer many different drink options, mainly milk tea, fruit tea, and slushies. Their drinks come with or without boba toppings. When ordering, I recommend asking the sweetness of the drinks to be reduced on anything fruit-flavored.<br><br>(Store Image Credit: Jordan Burleson)</span>
-        </div>
-        <img class="restaurant-main" src="images/mogeTee.png">
-        <div class="gallery">
-            <div class="gallery-card">
-                <img src="images/mogeTeeDish1.png">
-                <span>
-                    <span class="card-title">Orange Tea Slush</span><br><br>
-                    This cold slushie drink is a great refresher, filled with tangy flavor. This drink includes both orange juice in the ingredients, but also slices of orange which infuse fresh flavor as you drink.
-                </span>
-            </div>
-            <div class="gallery-card">
-                <img src="images/mogeTeeDish2.png">
-                <span>
-                     <span class="card-title">Mango Tea Slush</span><br><br>
-                    This chilly drink is an incredibly sweet mango slushie with pieces of mango in it for flavoring. The straws are big enough and the cubes of mango are small enough that you can eat them through the straw, which makes for a unique but good texture for the drink.
-                </span>
-            </div>
-            <div class="gallery-card">
-                <img src="images/mogeTeeDish3.png">
-                <span>
-                     <span class="card-title">Oreo Milk Tea</span><br><br>
-                     This milk-based sweet tea is topped with cream and Oreo crumbles, making a very dessert-y drink. The Oreo bits add a wonderful chocolate taste to the already-delicious tea.
-                </span>
-            </div>
-        </div>
-        <h2>Insomnia Cookies</h2>
-        <div class="restaurant-info"> <!--Flex container, hours on left, description on right-->
-            <span class="restaurant-hours">Sunday: 12:00 PM-1:00 AM<br>Monday: 11:00 AM-1:00 AM<br>Tuesday: 11:00 AM-1:00 AM<br>Wednesday: 11:00 AM - 1:00 AM<br>Thursday: 11:00 AM - 3:00 AM<br>Friday: 11:00 AM - 3:00 AM<br>Saturday: 12:00 PM - 3:00 AM</span>
-            <span class="restaurant-description">Address: 425 Tate St, Greensboro, NC<br><br>Insomnia Cookies is a nation-wide chain of dessert bakeries with locations at both UNCG and NC A&T. They offer cookies, brownies, and other baked dessert options. My favorites are below!<br><br>(Store Image Credit: Ebony M.)</span>
-        </div>
-        <img class="restaurant-main" src="images/insomnia.png">
-        <div class="gallery">
-            <div class="gallery-card">
-                <img src="images/insomniaDish1.png">
-                <span>
-                    <span class="card-title">Cookies 'n Cream Cookie</span><br><br>
-                    This cookie has white chocolate chips mixed in with Oreo cookie pieces, making a delightful mashup. The cookie part itself has a soft texture, and the Oreo pieces add a lovely crunch.
-                </span>
-            </div>
-            <div class="gallery-card">
-                <img src="images/insomniaDish2.png">
-                <span>
-                    <span class="card-title">Sugar Cookie</span><br><br>
-                    Despite looking like a normal sugar cookie, I can say without a doubt this was the best sugar cookie I have ever had. It's buttery smooth, and they are always served warm. They are larger than a standard sugar cookie however, so don't order multiple without knowing their size.
-                </span>
-            </div>
-            <div class="gallery-card">
-                <img src="images/insomniaDish3.png">
-                <span>
-                    <span class="card-title">Double Chocolate Mint Cookie</span><br><br>
-                    This cookie has a chocolate base with both mint chips and M&M pieces added in. The taste is similar to Andes Mints, but the texture is softer and melty. This cookie is very tasty, but the M&M bits get melty, so be careful not to dye your fingers/clothes.
-                </span>
-            </div>
-        </div>
+                <h2>Moge Tee Boba Shop</h2>
+                <div class="restaurant-info"> <!--Flex container, hours on left, description on right-->
+                    <span class="restaurant-hours">Sunday: 12:00 PM-9:00 PM<br>Monday: 12:00 PM-9:00 PM<br>Tuesday: 12:00 PM-9:00 PM<br>Wednesday: 12:00 PM-9:00 PM<br>Thursday: 12:00 PM-9:00 PM<br>Friday: 12:00 PM-10:00 PM<br>Saturday: 12:00 PM-10:00 PM</span>
+                    <span class="restaurant-description">Address: 948 Walker Ave, Greensboro, NC<br><br>If you've got a dry meal or just some spare time, definitely stop by Moge Tee! They offer many different drink options, mainly milk tea, fruit tea, and slushies. Their drinks come with or without boba toppings. When ordering, I recommend asking the sweetness of the drinks to be reduced on anything fruit-flavored.<br><br>(Store Image Credit: Jordan Burleson)</span>
+                </div>
+                <img class="restaurant-main" src="images/mogeTee.png" alt="Moge Tee's Storefront">
+                <div class="gallery">
+                    <div class="gallery-card">
+                        <img src="images/mogeTeeDish1.png" alt="Moge Tee's Orange Tea Slush">
+                        <span>
+                            <span class="card-title">Orange Tea Slush</span><br><br>
+                            This cold slushie drink is a great refresher, filled with tangy flavor. This drink includes both orange juice in the ingredients, but also slices of orange which infuse fresh flavor as you drink.
+                        </span>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/mogeTeeDish2.png" alt="Moge Tee's Mango Tea Slush">
+                        <span>
+                             <span class="card-title">Mango Tea Slush</span><br><br>
+                            This chilly drink is an incredibly sweet mango slushie with pieces of mango in it for flavoring. The straws are big enough and the cubes of mango are small enough that you can eat them through the straw, which makes for a unique but good texture for the drink.
+                        </span>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/mogeTeeDish3.png" alt="Moge Tee's Oreo Milk Tea">
+                        <span>
+                             <span class="card-title">Oreo Milk Tea</span><br><br>
+                             This milk-based sweet tea is topped with cream and Oreo crumbles, making a very dessert-y drink. The Oreo bits add a wonderful chocolate taste to the already-delicious tea.
+                        </span>
+                    </div>
+                </div>
+                <h2>Insomnia Cookies</h2>
+                <div class="restaurant-info"> <!--Flex container, hours on left, description on right-->
+                    <span class="restaurant-hours">Sunday: 12:00 PM-1:00 AM<br>Monday: 11:00 AM-1:00 AM<br>Tuesday: 11:00 AM-1:00 AM<br>Wednesday: 11:00 AM - 1:00 AM<br>Thursday: 11:00 AM - 3:00 AM<br>Friday: 11:00 AM - 3:00 AM<br>Saturday: 12:00 PM - 3:00 AM</span>
+                    <span class="restaurant-description">Address: 425 Tate St, Greensboro, NC<br><br>Insomnia Cookies is a nation-wide chain of dessert bakeries with locations at both UNCG and NC A&T. They offer cookies, brownies, and other baked dessert options. My favorites are below!<br><br>(Store Image Credit: Ebony M.)</span>
+                </div>
+                <img class="restaurant-main" src="images/insomnia.png" alt="Insomnia Cookie's Storefront">
+                <div class="gallery">
+                    <div class="gallery-card">
+                        <img src="images/insomniaDish1.png" alt="Insomnia Cookies' Cookies 'n Cream Cookie">
+                        <span>
+                            <span class="card-title">Cookies 'n Cream Cookie</span><br><br>
+                            This cookie has white chocolate chips mixed in with Oreo cookie pieces, making a delightful mashup. The cookie part itself has a soft texture, and the Oreo pieces add a lovely crunch.
+                        </span>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/insomniaDish2.png" alt="Insomnia Cookies' Sugar Cookie">
+                        <span>
+                            <span class="card-title">Sugar Cookie</span><br><br>
+                            Despite looking like a normal sugar cookie, I can say without a doubt this was the best sugar cookie I have ever had. It's buttery smooth, and they are always served warm. They are larger than a standard sugar cookie however, so don't order multiple without knowing their size.
+                        </span>
+                    </div>
+                    <div class="gallery-card">
+                        <img src="images/insomniaDish3.png" alt="Insomnia Cookies' Double Chocolate Mint Cookie">
+                        <span>
+                            <span class="card-title">Double Chocolate Mint Cookie</span><br><br>
+                            This cookie has a chocolate base with both mint chips and M&M pieces added in. The taste is similar to Andes Mints, but the texture is softer and melty. This cookie is very tasty, but the M&M bits get melty, so be careful not to dye your fingers/clothes.
+                        </span>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            Contact me: <br>
+            Email: <a href="mailto:me@cmsteffey.tech">me@cmsteffey.tech</a><br>
+            SMS: <a href="sms:336-555-3948">336-555-3948</a>
+        </footer>
     </body>
 </html>
